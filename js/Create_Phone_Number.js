@@ -1,11 +1,13 @@
 // https://www.codewars.com/kata/create-phone-number/train/javascript
 
 function createPhoneNumber(numbers){
-    var numbersArray = numbers;
-    console.log('start');
-    if (numbersArray.length === 10){
-      return ('('+numbersArray[0]+numbersArray[1]+numbersArray[2]+')'+' '+numbersArray[3]+numbersArray[4]+numbersArray[5]+'-'+numbersArray[6]+numbersArray[7]+numbersArray[8]+numbersArray[9]);
-      
-    }
+  if (numbers.length === 10){
+    const a = numbers.slice(0,3).join('');
+    const b = numbers.slice(3,6).join('');
+    const c = numbers.slice(6,10).join('');
+    return (`(${a})${b}-${c}`);
+    
+  } else {
+    return console.log('Array length is not equal 10')
   }
-  
+}  
