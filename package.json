@@ -1,0 +1,23 @@
+{
+  "name": "codewarssolutions",
+  "version": "1.0.0",
+  "description": "",
+  "main": "algodaily_reverse_string.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mpsujek/codewarssolutions.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mpsujek/codewarssolutions/issues"
+  },
+  "homepage": "https://github.com/mpsujek/codewarssolutions#readme",
+  "devDependencies": {
+    "jest": "^24.9.0"
+  }
+}
