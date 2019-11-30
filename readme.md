@@ -1,4 +1,4 @@
-#Codewars Solutions Project
+# Codewars Solutions Project
 
 This is a project to keep all my codewars solutions.
 During this project, I also test possibilities how to to provide projects.
