@@ -1,4 +1,4 @@
-const likes = require('./youre_square');
+const isSquare = require('./youre_square');
 
 
 describe('youre_square', () => {
