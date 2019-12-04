@@ -1,4 +1,4 @@
-const likes = require('./suitcase_packing');
+const fit_in = require('./suitcase_packing');
 
 
 describe('suitcase_packing', () => {
@@ -8,6 +8,6 @@ describe('suitcase_packing', () => {
   });
 
   test('test for false', () => {
-    expect(fit_in(3,2,3,2)).toBe(true);
+    expect(fit_in(3,2,3,2)).toBe(false);
   });
 });
