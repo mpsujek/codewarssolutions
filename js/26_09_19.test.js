@@ -1,6 +1,5 @@
 const likes = require('./26_09_19');
 
-
 describe('26_09_19', () => {
 
   test('4 likes', () => {
