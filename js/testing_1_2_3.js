@@ -10,3 +10,5 @@ var number=function(array){
 
   return newArray;
 }
+
+module.exports = number;
