@@ -2,8 +2,7 @@
 
 const number=function(array){
   return array.map(function(el, i){
-     el = `${i+1}: ${el}`;
-     return el;
+     return `${i+1}: ${el}`;
     })
 }
 
