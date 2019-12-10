@@ -1,5 +1,5 @@
 const removeUrlAnchor = require('./remove_anchor_from_url');
-const removeUrlAnchorOtherSolution = require('./remove_anchor_from_url');
+const removeAfterHash = require('./remove_anchor_from_url');
 
 
 describe('remove part of url', () => {
@@ -9,6 +9,6 @@ describe('remove part of url', () => {
   });
 
   test('anotherSolution', () => {
-    expect(removeUrlAnchorOtherSolution('www.codewars.com#about')).toBe('www.codewars.com');
+    expect(removeAfterHash('www.codewars.com#about')).toBe('www.codewars.com');
   });
 });

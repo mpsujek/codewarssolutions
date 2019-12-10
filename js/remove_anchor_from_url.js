@@ -5,9 +5,9 @@ function removeUrlAnchor(url) {
     return urlSplitted[0];
 }
 
-function removeUrlAnchorOtherSolution(url){
-  return url.replace(/\?.*/,'');
+function removeAfterHash(s){
+      return s.replace(/\#.*/,'');
 }
 
 module.exports = removeUrlAnchor;
-module.exports = removeUrlAnchorOtherSolution;
+module.exports = removeAfterHash;
