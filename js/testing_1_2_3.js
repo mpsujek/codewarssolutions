@@ -3,7 +3,7 @@
 const number=function(array){
   return array.map(function(el, i){
      return `${i+1}: ${el}`;
-    })
-}
+    });
+};
 
 module.exports = number;

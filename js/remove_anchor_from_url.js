@@ -5,4 +5,4 @@ function removeUrlAnchor(url) {
     return urlSplitted[0];
 }
 
-removeUrlAnchor('www.codewars.com#about')
+removeUrlAnchor('www.codewars.com#about');

@@ -8,6 +8,6 @@ function createPhoneNumber(numbers) {
     return (`(${a})${b}-${c}`);
 
   } else {
-    return new Error('Array length is not equal 10')
+    return new Error('Array length is not equal 10');
   }
 }

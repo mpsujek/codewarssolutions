@@ -40,7 +40,7 @@ function arithmetic(a, b, operator) {
 
 function oddOrEven(array) {
     const sum = array.reduce((a, b) => {
-        return b + a
+        return b + a;
     }, 0);
     return (sum % 2) ? "odd" : "even";
 }
@@ -51,7 +51,7 @@ function reverseLetter(str) {
     return str.split('').reverse().join('').replace(/[^a-zA-Z]+/g, "");
 }
 
-// http://www.codewars.com/kata/5287e858c6b5a9678200083c/train/javascript    
+// http://www.codewars.com/kata/5287e858c6b5a9678200083c/train/javascript
 function narcissistic(value) {
     const array = value.toString().split('');
     let result = 0;
@@ -59,6 +59,6 @@ function narcissistic(value) {
         result += Math.pow(parseInt(array[i]), array.length);
     }
     if (value === result) {
-        return true
+        return true;
     } else return false;
 }
