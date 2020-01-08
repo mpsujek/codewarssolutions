@@ -9,5 +9,4 @@ function removeAfterHash(s){
       return s.replace(/\#.*/,'');
 }
 
-module.exports = removeUrlAnchor;
-module.exports = removeAfterHash;
+module.exports = {removeUrlAnchor: removeUrlAnchor, removeAfterHash: removeAfterHash};

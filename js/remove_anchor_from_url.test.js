@@ -1,5 +1,4 @@
-const removeUrlAnchor = require('./remove_anchor_from_url');
-const removeAfterHash = require('./remove_anchor_from_url');
+const {removeUrlAnchor, removeAfterHash} = require('./remove_anchor_from_url');
 
 
 describe('remove part of url', () => {
