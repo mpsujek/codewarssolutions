@@ -1,23 +1,29 @@
 // https://www.codewars.com/kata/count-the-monkeys/train/javascript
 
-function monkeyCount(n) {
+function monkeyCountDoWhile(n) {
   const array = [];
-  // solution with do while
-  // let i = 1;
-  // do{
-  //    array.push(i);
-  //    i++;
-  // } while (i < n + 1);
+  let i = 1;
+  do {
+    array.push(i);
+    i++;
+  } while (i < n + 1);
+  return array;
+}
 
-  // solution with for loop
-  // for (let i = 1; i < n + 1 ; i++) {
-  //   array.push(i);
-  // }
-  // return array;
+function monkeyCountForLoop(n) {
+  const array = [];
+  for (let i = 1; i < n + 1; i++) {
+    array.push(i);
+  }
+  return array;
+}
+function monkeyCountFrom(n) {
+  const array = [];
+  return Array.from({ length: n }, (e, i) => i + 1);
+}
 
-  // solution with Array.from
-  return  Array.from({length : n}, (e, i ) => i + 1);
-
- }
-
- module.exports = monkeyCount;
+module.exports = {
+  monkeyCountDoWhile: monkeyCountDoWhile,
+  monkeyCountForLoop: monkeyCountForLoop,
+  monkeyCountFrom: monkeyCountFrom,
+};
