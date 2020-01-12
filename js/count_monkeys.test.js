@@ -1,6 +1,8 @@
-const {monkeyCountDoWhile,
+const {
+  monkeyCountDoWhile,
   monkeyCountForLoop,
-  monkeyCountFrom} = require('./count_monkeys');
+  monkeyCountFrom,
+} = require('./count_monkeys');
 
 describe('count_monkeys', () => {
   test('returns an array of numbers from 1 to 5 when given 5', () => {
