@@ -7,7 +7,7 @@ describe('well_of_ideas', () => {
     expect(well(['bad', 'bad', 'bad'])).toBe('Fail!');
   });
 
-  test('If its get minimum one or two good ideas should be Publish', () => {
+  test('If it gets minimum one or two good ideas should be Publish', () => {
     expect(well(['good', 'bad', 'bad', 'bad', 'bad'])).toBe('Publish!');
   });
 
