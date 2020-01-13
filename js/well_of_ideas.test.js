@@ -3,7 +3,7 @@ const well = require('./well_of_ideas');
 
 describe('well_of_ideas', () => {
 
-  test('When it gest only bad ideas should be Fail', () => {
+  test('When it gets only bad ideas should be Fail', () => {
     expect(well(['bad', 'bad', 'bad'])).toBe('Fail!');
   });
 
