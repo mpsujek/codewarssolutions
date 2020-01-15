@@ -4,7 +4,7 @@ const {
   monkeyCountFrom,
 } = require('./count_monkeys');
 
-describe('count_monkeys', () => {
+describe('count_monkeys do while function', () => {
   test('returns an array of numbers from 1 to 5 when given 5', () => {
     expect(monkeyCountDoWhile(5)).toStrictEqual([1, 2, 3, 4, 5]);
   });
@@ -33,6 +33,8 @@ describe('count_monkeys', () => {
       20,
     ]);
   });
+});
+describe('count_monkeys for loop', () => {
   test('returns an array of numbers from 1 to 5 when given 5', () => {
     expect(monkeyCountForLoop(5)).toStrictEqual([1, 2, 3, 4, 5]);
   });
@@ -61,6 +63,8 @@ describe('count_monkeys', () => {
       20,
     ]);
   });
+});
+describe('count_monkeys from', () => {
   test('returns an array of numbers from 1 to 5 when given 5', () => {
     expect(monkeyCountFrom(5)).toStrictEqual([1, 2, 3, 4, 5]);
   });
