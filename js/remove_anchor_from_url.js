@@ -5,8 +5,4 @@ function removeUrlAnchor(url) {
     return urlSplitted[0];
 }
 
-function removeAfterHash(s){
-      return s.replace(/\#.*/,'');
-}
-
-module.exports = {removeUrlAnchor: removeUrlAnchor, removeAfterHash: removeAfterHash};
+removeUrlAnchor('www.codewars.com#about')
