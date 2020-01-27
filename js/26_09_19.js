@@ -12,6 +12,7 @@ function likes(names) {
   } else if (names.length >= 4) {
     return names[0] + ', ' + names[1] + ' and ' + (names.length - 2) + ' others like this';
   }
-  // im checking if this file change will be counted in github
+  // im checking if this file change will be counted in github Device 1
+  // this is comment added on other device - checking if this will be counted Device 2
 }
 module.exports = likes;
