@@ -21,16 +21,12 @@ function arithmetic(a, b, operator) {
   switch (operator) {
     case 'add':
       return a + b;
-      break;
     case 'subtract':
       return a - b;
-      break;
     case 'multiply':
       return a * b;
-      break;
     case 'divide':
       return a / b;
-      break;
   }
 }
 
@@ -62,4 +58,12 @@ function narcissistic(value) {
   if (value === result) {
     return true;
   } else return false;
+}
+
+module.exports = {
+  narcissistic: narcissistic,
+  reverseLetter: reverseLetter,
+  oddOrEven: oddOrEven,
+  arithmetic: arithmetic,
+  getMiddle: getMiddle
 }
