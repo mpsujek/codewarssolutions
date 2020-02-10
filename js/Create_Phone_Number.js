@@ -11,3 +11,5 @@ function createPhoneNumber(numbers) {
     return new Error('Array length is not equal 10')
   }
 }
+
+module.exports = createPhoneNumber;
