@@ -4,12 +4,12 @@ function parse(data) {
   const dataArray = data.split('');
   const arrayReturn = [];
   let element = 0;
-  dataArray.forEach(el => {
-    (el === 'i') && (element += 1);
-    (el === 'd') && (element -= 1);
-    (el === 's') && (element = Math.pow(element, 2));
-    (el === 'o') && (arrayReturn.push(element));
-  })
+  dataArray.forEach((el) => {
+    el === 'i' && (element += 1);
+    el === 'd' && (element -= 1);
+    el === 's' && (element = Math.pow(element, 2));
+    el === 'o' && arrayReturn.push(element);
+  });
   return arrayReturn;
 }
 
