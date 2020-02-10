@@ -1,4 +1,4 @@
-const parse = require('./make_dead_fish_swim');
+const parse = require('./make_dead_fish_swim_forEach');
 
 
 describe('make_dead_fish_swim_forEach', () => {
