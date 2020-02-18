@@ -6,6 +6,9 @@ function monkeyCountDoWhile(n) {
   do {
     array.push(i);
     i++;
+
+
+
   } while (i < n + 1);
   return array;
 }
@@ -19,9 +22,12 @@ function monkeyCountForLoop(n) {
 }
 
 function monkeyCountFrom(n) {
-  return Array.from({
-    length: n
-  }, (e, i) => i + 1);
+  return Array.from(
+    {
+      length: n,
+    },
+    (e, i) => i + 1,
+  );
 }
 
 module.exports = {
