@@ -33,14 +33,8 @@
   "dependencies": {},
   "husky": {
     "hooks": {
-      "pre-commit": "prettier_and_linter",
+      "pre-commit": "npm run lint && pretty-quick --staged",
       "pre-push": "npm run lint"
-    },
-    "prettier_and_linter": {
-      "./src/*.{js,jsx,ts,tsx}": [
-        "pretty-quick --staged",
-        "npm run lint"
-      ]
     }
   }
 }
