@@ -6,9 +6,6 @@ function monkeyCountDoWhile(n) {
   do {
     array.push(i);
     i++;
-
-
-
   } while (i < n + 1);
   return array;
 }
