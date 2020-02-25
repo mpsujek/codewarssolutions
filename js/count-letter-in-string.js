@@ -8,7 +8,7 @@ function count(string) {
     if (lettersCount[lettersArr[i]] === undefined) {
       lettersCount[lettersArr[i]] = 1;
     } else {
-      lettersCount[lettersArr[i]]++;
+      lettersCount[string[i]]++;
     }
   })
   return lettersCount;
