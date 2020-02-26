@@ -4,7 +4,7 @@ function count(string) {
   const lettersArr = string.split('');
   let lettersCount = {};
 
-   lettersArr.forEach((letter, i) => {
+   lettersArr.forEach((i) => {
     if (lettersCount[lettersArr[i]] === undefined) {
       lettersCount[lettersArr[i]] = 1;
     } else {
