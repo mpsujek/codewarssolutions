@@ -4,11 +4,11 @@ function count(string) {
   const lettersArr = string.split('');
   let lettersCount = {};
 
-  lettersArr.forEach((_element, i) => {
-    if (lettersCount[lettersArr[i]] === undefined) {
-      lettersCount[lettersArr[i]] = 1;
+  lettersArr.forEach((element) => {
+    if (lettersCount[element] === undefined) {
+      lettersCount[element] = 1;
     } else {
-      lettersCount[string[i]]++;
+      lettersCount[element]++;
     }
   });
   return lettersCount;
