@@ -7,7 +7,7 @@ function toWeirdCase(string) {
       return word
         .split('')
         .map((letter, i) => {
-          return i % 2 == 0 ? letter.toUpperCase() : letter.toLowerCase();
+          return i % 2 === 0 ? letter.toUpperCase() : letter.toLowerCase();
         })
         .join('');
     })
