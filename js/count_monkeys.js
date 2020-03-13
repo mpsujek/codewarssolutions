@@ -19,9 +19,12 @@ function monkeyCountForLoop(n) {
 }
 
 function monkeyCountFrom(n) {
-  return Array.from({
-    length: n
-  }, (e, i) => i + 1);
+  return Array.from(
+    {
+      length: n,
+    },
+    (e, i) => i + 1,
+  );
 }
 
 module.exports = {
