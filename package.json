@@ -31,7 +31,8 @@
     "pretty-quick": "^2.0.1"
   },
   "dependencies": {
-    "acorn": ">=5.7.4"
+    "acorn": ">=5.7.4",
+    "minimist": ">=1.2.2"
   },
   "husky": {
     "hooks": {
