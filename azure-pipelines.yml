@@ -24,4 +24,9 @@ steps:
 - script: |
     npm run lint
     
-  displayName: 'Run linter'
+  displayName: 'run linter'
+
+- script: |
+    npm run test
+    
+  displayName: 'run test'
