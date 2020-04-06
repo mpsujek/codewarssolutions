@@ -8,7 +8,7 @@ function generateHashtag(str) {
   };
 
   const strWithoutSpaces = str.capitalize().replace(/\s/g, '');
-  if (strWithoutSpaces.length < 140 && strWithoutSpaces.length != 0) {
+  if (strWithoutSpaces.length < 140 && strWithoutSpaces.length !== 0) {
     return `#${strWithoutSpaces}`;
   } else {
     return false;
