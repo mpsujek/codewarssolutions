@@ -32,7 +32,7 @@
   },
   "dependencies": {
     "acorn": ">=5.7.4",
-    "minimist": ">=1.2.2"
+    "minimist": ">=1.2.6"
   },
   "husky": {
     "hooks": {
